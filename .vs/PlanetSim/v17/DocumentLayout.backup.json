@@ -1,12 +1,156 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "A:\\Work\\C#\\PlanetSim\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{23E8A2EA-898B-4E2C-8FAE-CC56C77AA833}|PlanetSim.csproj|a:\\work\\c#\\planetsim\\planetsimgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E8A2EA-898B-4E2C-8FAE-CC56C77AA833}|PlanetSim.csproj|solutionrelative:planetsimgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E8A2EA-898B-4E2C-8FAE-CC56C77AA833}|PlanetSim.csproj|a:\\work\\c#\\planetsim\\content\\game\\scene\\menuscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E8A2EA-898B-4E2C-8FAE-CC56C77AA833}|PlanetSim.csproj|solutionrelative:content\\game\\scene\\menuscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E8A2EA-898B-4E2C-8FAE-CC56C77AA833}|PlanetSim.csproj|a:\\work\\c#\\planetsim\\content\\game\\debugoverlay\\debugoverlay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E8A2EA-898B-4E2C-8FAE-CC56C77AA833}|PlanetSim.csproj|solutionrelative:content\\game\\debugoverlay\\debugoverlay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E8A2EA-898B-4E2C-8FAE-CC56C77AA833}|PlanetSim.csproj|a:\\work\\c#\\planetsim\\content\\game\\gamestate\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E8A2EA-898B-4E2C-8FAE-CC56C77AA833}|PlanetSim.csproj|solutionrelative:content\\game\\gamestate\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E8A2EA-898B-4E2C-8FAE-CC56C77AA833}|PlanetSim.csproj|a:\\work\\c#\\planetsim\\content\\game\\ui\\debug\\debugbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E8A2EA-898B-4E2C-8FAE-CC56C77AA833}|PlanetSim.csproj|solutionrelative:content\\game\\ui\\debug\\debugbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E8A2EA-898B-4E2C-8FAE-CC56C77AA833}|PlanetSim.csproj|a:\\work\\c#\\planetsim\\content\\game\\assetmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E8A2EA-898B-4E2C-8FAE-CC56C77AA833}|PlanetSim.csproj|solutionrelative:content\\game\\assetmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E8A2EA-898B-4E2C-8FAE-CC56C77AA833}|PlanetSim.csproj|a:\\work\\c#\\planetsim\\content\\game\\scene\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E8A2EA-898B-4E2C-8FAE-CC56C77AA833}|PlanetSim.csproj|solutionrelative:content\\game\\scene\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E8A2EA-898B-4E2C-8FAE-CC56C77AA833}|PlanetSim.csproj|a:\\work\\c#\\planetsim\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E8A2EA-898B-4E2C-8FAE-CC56C77AA833}|PlanetSim.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DebugBar.cs",
+              "DocumentMoniker": "A:\\Work\\C#\\PlanetSim\\Content\\Game\\UI\\Debug\\DebugBar.cs",
+              "RelativeDocumentMoniker": "Content\\Game\\UI\\Debug\\DebugBar.cs",
+              "ToolTip": "A:\\Work\\C#\\PlanetSim\\Content\\Game\\UI\\Debug\\DebugBar.cs",
+              "RelativeToolTip": "Content\\Game\\UI\\Debug\\DebugBar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T15:38:31.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DebugOverlay.cs",
+              "DocumentMoniker": "A:\\Work\\C#\\PlanetSim\\Content\\Game\\DebugOverlay\\DebugOverlay.cs",
+              "RelativeDocumentMoniker": "Content\\Game\\DebugOverlay\\DebugOverlay.cs",
+              "ToolTip": "A:\\Work\\C#\\PlanetSim\\Content\\Game\\DebugOverlay\\DebugOverlay.cs",
+              "RelativeToolTip": "Content\\Game\\DebugOverlay\\DebugOverlay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T14:29:16.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SceneManager.cs",
+              "DocumentMoniker": "A:\\Work\\C#\\PlanetSim\\Content\\Game\\GameState\\SceneManager.cs",
+              "RelativeDocumentMoniker": "Content\\Game\\GameState\\SceneManager.cs",
+              "ToolTip": "A:\\Work\\C#\\PlanetSim\\Content\\Game\\GameState\\SceneManager.cs",
+              "RelativeToolTip": "Content\\Game\\GameState\\SceneManager.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwFEAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T13:40:54.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuScene.cs",
+              "DocumentMoniker": "A:\\Work\\C#\\PlanetSim\\Content\\Game\\Scene\\MenuScene.cs",
+              "RelativeDocumentMoniker": "Content\\Game\\Scene\\MenuScene.cs",
+              "ToolTip": "A:\\Work\\C#\\PlanetSim\\Content\\Game\\Scene\\MenuScene.cs",
+              "RelativeToolTip": "Content\\Game\\Scene\\MenuScene.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwBsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T13:02:24.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "A:\\Work\\C#\\PlanetSim\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "A:\\Work\\C#\\PlanetSim\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T12:58:13.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AssetManager.cs",
+              "DocumentMoniker": "A:\\Work\\C#\\PlanetSim\\Content\\Game\\AssetManager.cs",
+              "RelativeDocumentMoniker": "Content\\Game\\AssetManager.cs",
+              "ToolTip": "A:\\Work\\C#\\PlanetSim\\Content\\Game\\AssetManager.cs",
+              "RelativeToolTip": "Content\\Game\\AssetManager.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T12:55:35.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlanetSimGame.cs",
+              "DocumentMoniker": "A:\\Work\\C#\\PlanetSim\\PlanetSimGame.cs",
+              "RelativeDocumentMoniker": "PlanetSimGame.cs",
+              "ToolTip": "A:\\Work\\C#\\PlanetSim\\PlanetSimGame.cs",
+              "RelativeToolTip": "PlanetSimGame.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAmwAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T12:48:05.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Scene.cs",
+              "DocumentMoniker": "A:\\Work\\C#\\PlanetSim\\Content\\Game\\Scene\\Scene.cs",
+              "RelativeDocumentMoniker": "Content\\Game\\Scene\\Scene.cs",
+              "ToolTip": "A:\\Work\\C#\\PlanetSim\\Content\\Game\\Scene\\Scene.cs",
+              "RelativeToolTip": "Content\\Game\\Scene\\Scene.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T12:44:18.791Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

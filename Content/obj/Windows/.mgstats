@@ -1,0 +1,4 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"A:/Work/C#/PlanetSim/Content/Assets/Fonts/DebugFont.spritefont","A:/Work/C#/PlanetSim/Content/bin/Windows/Assets/Fonts/DebugFont.xnb","FontDescriptionProcessor","SpriteFontContent",2072,21535,0,125087
+"A:/Work/C#/PlanetSim/Content/Assets/Fonts/MainFont.spritefont","A:/Work/C#/PlanetSim/Content/bin/Windows/Assets/Fonts/MainFont.xnb","FontDescriptionProcessor","SpriteFontContent",2071,21535,0,0122668
+"A:/Work/C#/PlanetSim/Content/Assets/Fonts/SecondaryFont.spritefont","A:/Work/C#/PlanetSim/Content/bin/Windows/Assets/Fonts/SecondaryFont.xnb","FontDescriptionProcessor","SpriteFontContent",2076,21535,0,0130973

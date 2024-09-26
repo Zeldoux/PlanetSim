@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlanetSim")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2699fc164eb11c8b36d3c1675a8ae794226ab95")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a61e814af6dcfa24deac517bb4427f4d095dfb2f")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlanetSim")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlanetSim")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

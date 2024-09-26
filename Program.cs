@@ -1,3 +1,3 @@
 ﻿
-using var game = new PlanetSim.Game1();
+using var game = new PlanetSim.PlanetSimGame();
 game.Run();
