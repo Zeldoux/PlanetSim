@@ -1,5 +1,6 @@
 ﻿
 using Content.Game.Scene;
+using System;
 
 
 namespace PlanetSim.Content.Game.GameState
@@ -51,35 +52,19 @@ namespace PlanetSim.Content.Game.GameState
         // method to switch scene in the GameState handler 
         public void SwitchScene(SceneType ptype)
         {
-            // Unload the current scene if it exists
-            if (CurrentScene != null)
+            CurrentScene?.Unload(); // Compact check for existing scene
+            CurrentScene = ptype switch
             {
-                CurrentScene.Unload();
-                CurrentScene = null;
-            }
-            // Switch to the new scene based on the scene type
-            switch (ptype)
-            {
-                case SceneType.MenuScene:
-                    // create a Mainscene instance
-                    CurrentScene = new MenuScene(mainGame);
-                    
-                    // menu scene where you can go in option // login // quit 
-                    break;
-                case SceneType.GameScene:
-                    // game scene where you see your characters the map other player , enemy and so on ...
+                SceneType.MenuScene => new MenuScene(mainGame),
+                SceneType.GameScene => new GameScene(mainGame),
+                //SceneType.DeadScene => new DeadScene(mainGame), // (Assuming DeadScene exists)
+                _ => throw new ArgumentOutOfRangeException()
+            };
 
-                    break;
-                case SceneType.DeadScene:
-                    // game scene that show up when you loose ? 
-                    break;
-                default:
 
-                    break;
-            }
-            // Load the new scene
+
             CurrentScene.Load();
-            mainGame._DebugOverlay.SetCurrentScene(CurrentScene.GetType().Name);
+           
         }
     }
     }

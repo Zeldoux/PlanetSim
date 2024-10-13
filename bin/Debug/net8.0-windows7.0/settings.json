@@ -1,0 +1,2301 @@
+{
+  "_ResolutionManager": {
+    "AvailableResolutions": [
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 640,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 640,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 640,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 640,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 640,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 640,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 640,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 640,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 640,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Width": 640,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 480
+      },
+      {
+        "Width": 720,
+        "Height": 576
+      },
+      {
+        "Width": 800,
+        "Height": 600
+      },
+      {
+        "Width": 1024,
+        "Height": 768
+      },
+      {
+        "Width": 1152,
+        "Height": 864
+      },
+      {
+        "Width": 1176,
+        "Height": 664
+      },
+      {
+        "Width": 1280,
+        "Height": 720
+      },
+      {
+        "Width": 1280,
+        "Height": 768
+      },
+      {
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Width": 1280,
+        "Height": 1024
+      },
+      {
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Width": 1360,
+        "Height": 768
+      },
+      {
+        "Width": 1366,
+        "Height": 768
+      },
+      {
+        "Width": 1440,
+        "Height": 1080
+      },
+      {
+        "Width": 1600,
+        "Height": 900
+      },
+      {
+        "Width": 1600,
+        "Height": 1024
+      },
+      {
+        "Width": 1680,
+        "Height": 1050
+      },
+      {
+        "Width": 1920,
+        "Height": 1080
+      }
+    ],
+    "CurrentResolution": {
+      "Width": 1600,
+      "Height": 1024
+    }
+  },
+  "IsFullscreen": false,
+  "Volume": 1.0,
+  "KeyBindings": {
+    "MoveUp": 87,
+    "MoveDown": 83,
+    "MoveLeft": 65,
+    "MoveRight": 68,
+    "ToggleFullscreen": 70
+  },
+  "WindowWidth": 1600,
+  "WindowHeight": 1024
+}

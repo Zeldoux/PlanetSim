@@ -9,7 +9,8 @@
       "PlanetSim/1.0.0": {
         "dependencies": {
           "MonoGame.Content.Builder.Task": "3.8.1.303",
-          "MonoGame.Framework.WindowsDX": "3.8.1.303"
+          "MonoGame.Framework.WindowsDX": "3.8.1.303",
+          "ImGui.NET": "1.91.0.1"
         },
         "runtime": {
           "PlanetSim.dll": {}
@@ -1474,6 +1475,14 @@
           "System.Xml.XDocument": "4.0.11",
           "System.Xml.XPath": "4.0.1"
         }
+      },
+      "ImGui.NET/1.91.0.1": {
+        "runtime": {
+          "ImGui.NET.dll": {
+            "assemblyVersion": "1.91.0.1",
+            "fileVersion": "1.91.0.1"
+          }
+        }
       }
     }
   },
@@ -2329,6 +2338,11 @@
       "sha512": "sha512-FLhdYJx4331oGovQypQ8JIw2kEmNzCsjVOVYY/16kZTUoquZG85oVn7yUhBE2OZt1yGPSXAL0HTEfzjlbNpM7Q==",
       "path": "system.xml.xpath.xdocument/4.0.1",
       "hashPath": "system.xml.xpath.xdocument.4.0.1.nupkg.sha512"
+    },
+    "ImGui.NET/1.91.0.1": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

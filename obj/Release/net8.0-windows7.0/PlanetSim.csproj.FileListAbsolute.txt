@@ -1,0 +1,6 @@
+A:\Work\C#\PlanetSim\obj\Release\net8.0-windows7.0\PlanetSim.csproj.AssemblyReference.cache
+A:\Work\C#\PlanetSim\obj\Release\net8.0-windows7.0\PlanetSim.GeneratedMSBuildEditorConfig.editorconfig
+A:\Work\C#\PlanetSim\obj\Release\net8.0-windows7.0\PlanetSim.AssemblyInfoInputs.cache
+A:\Work\C#\PlanetSim\obj\Release\net8.0-windows7.0\PlanetSim.AssemblyInfo.cs
+A:\Work\C#\PlanetSim\obj\Release\net8.0-windows7.0\PlanetSim.csproj.CoreCompileInputs.cache
+A:\Work\C#\PlanetSim\obj\Release\net8.0-windows7.0\PlanetSim.sourcelink.json

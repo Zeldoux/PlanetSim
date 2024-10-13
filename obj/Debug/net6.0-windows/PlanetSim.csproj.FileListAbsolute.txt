@@ -39,3 +39,5 @@ A:\Work\C#\PlanetSim\obj\Debug\net6.0-windows\ref\PlanetSim.dll
 A:\Work\C#\PlanetSim\bin\Debug\net6.0-windows\Content\Assets\Fonts\DebugFont.xnb
 A:\Work\C#\PlanetSim\bin\Debug\net6.0-windows\Content\Assets\Fonts\MainFont.xnb
 A:\Work\C#\PlanetSim\bin\Debug\net6.0-windows\Content\Assets\Fonts\SecondaryFont.xnb
+A:\Work\C#\PlanetSim\bin\Debug\net6.0-windows\ImGui.NET.dll
+A:\Work\C#\PlanetSim\bin\Debug\net6.0-windows\ImGui.NET.pdb

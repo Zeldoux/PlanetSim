@@ -1,11 +1,20 @@
-﻿using Content.Game.DebugOverlay;
+﻿
+using ImGuiNET;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using MonoGame.ImGuiNet;
 using PlanetSim.Content.Game;
 using PlanetSim.Content.Game.GameState;
+using PlanetSim.Content.Game.Settings;
+using PlanetSim.Content.Game.UI.DebugUI;
 using System;
+using System.Collections.Generic;
 using System.Diagnostics;
+
+using PlanetSim.Content.Game.UI;
+
+
 
 namespace PlanetSim
 {
@@ -15,23 +24,23 @@ namespace PlanetSim
     /// </summary>
     public class PlanetSimGame : Game
     {
-        private GraphicsDeviceManager _graphics;
-        private SpriteBatch _spriteBatch;
+        public ImGuiRenderer _GuiRenderer; // Renderer for ImGui UI
+        public DebugUI _debugUI; // UI for debugging information
+        
 
-        private DebugOverlay _debugOverlay; // debug overlay class 
+        public const int virtualWidth = 1280; // Preferred virtual resolution width
+        public const int virtualHeight = 720; // Preferred virtual resolution height
 
-        public DebugOverlay _DebugOverlay => _debugOverlay; // Read-only property
+        private GraphicsDeviceManager _graphics; // Graphics device manager for rendering
+        private SpriteBatch _spriteBatch; // Sprite batch for 2D rendering
 
+        public SpriteBatch SpriteBatch => _spriteBatch; // Property to access sprite batch
+        
+        public GraphicsDeviceManager GraphicsManager => _graphics; // Property to access graphics manager
+       
 
-        private SpriteFont _debugFont; // Add this variable to hold the debug font
-
-        public SpriteBatch SpriteBatch => _spriteBatch; // Read-only property
-
-        // Handles the current game state (e.g., current scene)
-        public SceneManager sceneManager;
-
-        // Placeholder for loading textures (e.g., images)
-        public Texture2D _texture;
+        public SettingsManager _settingManager; // Manager for game settings
+        public SceneManager _sceneManager; // Manager for current game state (e.g., scenes)
 
         /// <summary>
         /// Constructor initializes graphics and game state.
@@ -39,15 +48,28 @@ namespace PlanetSim
         public PlanetSimGame()
         {
             _graphics = new GraphicsDeviceManager(this);
-            _graphics.GraphicsProfile = GraphicsProfile.HiDef;
+            
+            _settingManager = new SettingsManager(_graphics);
+
+
+            this.Window.AllowUserResizing = true;
+            this.Window.ClientSizeChanged += Window_ClientSizeChanged;
 
             // Set the content root directory
             Content.RootDirectory = "Content";
 
             IsMouseVisible = true;
 
+
             // Initialize the game state manager
-            sceneManager = new SceneManager(this); // (this) = (client)
+            _sceneManager = new SceneManager(this); // (this) = (client)
+        }
+
+        // Event handler for window size changes
+        private void Window_ClientSizeChanged(object sender, EventArgs e)
+        {
+            // Call the HandleWindowResize method to update the settings manager
+            _settingManager.HandleWindowResize(Window.ClientBounds.Width, Window.ClientBounds.Height);
         }
 
         /// <summary>
@@ -57,30 +79,41 @@ namespace PlanetSim
         {
             // Clear the screen and depth buffer
             GraphicsDevice.Clear(ClearOptions.Target | ClearOptions.DepthBuffer, Color.CornflowerBlue, 1.0f, 0);
-
-
-            // TODO: Add your initialization logic here
-
+           
             base.Initialize();
+
+            
         }
-
-
         /// <summary>
         /// LoadContent is called once per game to load content (textures, fonts, etc.)
         /// </summary>
         protected override void LoadContent()
         {
-            _spriteBatch = new SpriteBatch(GraphicsDevice);
+            try
+            {
+                _spriteBatch = new SpriteBatch(GraphicsDevice); // Create a new sprite batch
 
+                // Load assets using the AssetManager
+                AssetManager.Load(Content);
 
-            
+                // Apply the settings after loading
+                _settingManager.ApplySettings();
 
-            // Load assets using the AssetManager
-            AssetManager.Load(Content);
-            
-            _debugOverlay = new DebugOverlay(_spriteBatch, AssetManager.DebugFont, this);
+                // Initialize ImGui after the settings are applied
+                _GuiRenderer = new ImGuiRenderer(this);
+                _GuiRenderer.RebuildFontAtlas();
 
-            sceneManager.SwitchScene(SceneManager.SceneType.MenuScene);
+                _debugUI = new DebugUI(_GuiRenderer);
+                _debugUI.Load();
+
+                // Initialize the scene manager and switch to the menu scene
+                _sceneManager.SwitchScene(SceneManager.SceneType.MenuScene);
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"Error loading content: {ex.Message}");
+            }
+
         }
 
 
@@ -90,29 +123,30 @@ namespace PlanetSim
         /// <param name="dt">GameTime instance for timing and frame management.(delta time // gametime  ) g</param>
         protected override void Update(GameTime dt)
         {
-
+            // Check for updates to the settings
+            _settingManager.CheckForSettingsUpdate();
+            
             // Check for F1 key press to toggle debug mode
             KeyboardState keyboardState = Keyboard.GetState();
 
             if (Keyboard.GetState().IsKeyDown(Keys.A))
             {
-                _debugOverlay.ToggleDebugMode(); // Toggle the debug overlay on F1 key press
+                _debugUI.ToggleVisibility(); // Toggle the debug overlay on F1 key press
                 Debug.WriteLine("Key press : A ");
             }
-                
+            _debugUI.Update(dt);
 
 
-            // Update the debug overlay
-            _debugOverlay.Update(dt); // Update the debug overlay
             // Exit the game if the Back button on a gamepad or Escape key is pressed
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
                 
 
             // Update the current scene
-            if (sceneManager.CurrentScene != null)
+            if (_sceneManager.CurrentScene != null)
             {
-                sceneManager.CurrentScene.Update(dt);
+
+                _sceneManager.CurrentScene.Update(dt);
             }
             base.Update(dt);
         }
@@ -124,16 +158,37 @@ namespace PlanetSim
         /// <param name="dt">GameTime instance for timing and frame management.</param>
         protected override void Draw(GameTime dt)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
-           
-
-            // Draw the current scene
-            if (sceneManager.CurrentScene != null)
+            try
             {
-                sceneManager.CurrentScene.Draw(dt);
+               
+                // Clear the render target
+                GraphicsDevice.Clear(Color.CornflowerBlue);
+
+                // Draw the current scene
+                if (_sceneManager.CurrentScene != null)
+                {
+                    _sceneManager.CurrentScene.Draw(dt);
+                }
+
+                _GuiRenderer.BeginLayout(dt);
+                _debugUI.Draw(dt); // Draw the debug UI
+                _GuiRenderer.EndLayout();
             }
-            base.Draw(dt);
-            _debugOverlay.Draw(); // Draw the debug overlay
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"Error during drawing: {ex.Message}");
+            }
+        }
+        protected override void OnDeactivated(object sender, EventArgs args)
+        {
+            base.OnDeactivated(sender, args);
+            Debug.WriteLine("Game Deactivated");
+        }
+
+        protected override void OnActivated(object sender, EventArgs args)
+        {
+            base.OnActivated(sender, args);
+            Debug.WriteLine("Game Activated");
         }
     }
 }
